@@ -1,0 +1,7 @@
+; vsm_srv.def : Declares the module parameters for the DLL.
+
+LIBRARY      "vsm_srv"
+DESCRIPTION  'vsm_srv Windows Dynamic Link Library'
+
+EXPORTS
+    vm_entry @1
